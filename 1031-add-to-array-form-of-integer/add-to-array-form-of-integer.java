@@ -4,7 +4,7 @@ class Solution {
         int i = num.length - 1;
         int carry = k;
         
-        while (i >= 0 || carry > 0) { // 'whike' ko 'while' kiya
+        while (i >= 0 || carry > 0) {
             if (i >= 0) {
                 carry += num[i];
                 i--;
